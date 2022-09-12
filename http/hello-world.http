@@ -1,0 +1,7 @@
+GET http://localhost:4000
+
+// CTRL MAJ P => send request ou OPTION COMMAND R
+
+// TEST pour voir si ca fonctionne sans client, directement dans la base de code sans passer par POSTMAN ect...
+
+// Voir DOC REST CLIENT
