@@ -1,8 +1,8 @@
 import '../App.css'
 
-const Skill = ({ name, numberOfVotes}) => {
+const Skill = ({ skillName, numberOfVotes}) => {
   return <>
-    {name}
+    {skillName}
      <span className="votes">{numberOfVotes}</span>
   </>
 }
