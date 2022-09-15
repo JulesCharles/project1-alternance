@@ -11,11 +11,18 @@ h1, h2, h3 {
 h1 {
   font-size: 40px;
 }
+
  
 h2 {
   font-size: 28px;
 }
- 
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+}
+
 h3 {
   font-size: 20px;
 }
@@ -47,11 +54,6 @@ footer {
 /* 
  * card-layout. css 
  */
-.card-row {
-  display: grid;
-  grid-template-columns: repeat(3, 32%);
-  justify-content: space-between;
-}
  
 .card {
   padding: 20px;
